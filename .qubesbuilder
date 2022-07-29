@@ -1,0 +1,10 @@
+host:
+  rpm:
+    build:
+    - alsa-sof-firmware.spec
+source:
+  files:
+  - url: https://github.com/thesofproject/sof-bin/releases/download/v@VERSION@/sof-bin-v@VERSION@.tar.gz
+    sha512: sof-bin-v@VERSION@.tar.gz.sha512
+  - url: https://github.com/thesofproject/sof-bin/releases/download/v@VERSION@a/sof-tplg-v@VERSION@a.tar.gz
+    sha512: sof-tplg-v@VERSION@a.tar.gz.sha512
